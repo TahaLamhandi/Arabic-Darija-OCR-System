@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Systeme OCR Arabe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand">Systeme OCR Arabe</div>
+      <nav class="nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">A propos</a>
+        <a href="#demarrer">Commencer</a>
+        <a href="#resultats">Resultats</a>
+      </nav>
+    </header>
+
+    <section id="accueil" class="hero fade">
+      <div class="hero-main">
+        <span class="badge">Plateforme academique</span>
+        <h1>Lecture claire du texte arabe a partir d images</h1>
+        <p class="subtitle">Une experience simple, soignee et fiable pour extraire le texte et le consulter dans un format propre.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#demarrer">Commencer</a>
+          <a class="btn ghost" href="#apropos">Decouvrir</a>
+        </div>
+        <div class="hero-pills">
+          <span>Analyse rapide</span>
+          <span>Resultat lisible</span>
+          <span>Cadre academique</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h2>Ce que vous obtenez</h2>
+        <ul>
+          <li>Un texte detecte pret a copier.</li>
+          <li>Un tableau des segments et des scores de confiance.</li>
+          <li>Une image annotee pour verifier les zones.</li>
+        </ul>
+        <div class="hero-note">Concu pour un usage academique et professionnel.</div>
+      </div>
+    </section>
+
+    <section id="apropos" class="section fade">
+      <div class="section-head">
+        <span class="eyebrow">A propos</span>
+        <h2>Une plateforme claire, humaine et concentree sur l essentiel</h2>
+        <p>Notre objectif est de proposer une lecture fluide du texte arabe a partir d images, avec une presentation propre et une verification simple des zones detectees.</p>
+      </div>
+      <div class="section-grid">
+        <div class="info-card">
+          <h3>Pour qui</h3>
+          <p>Etudiants, enseignants, chercheurs et professionnels qui souhaitent gagner du temps lors de la lecture de documents.</p>
+        </div>
+        <div class="info-card">
+          <h3>Valeur</h3>
+          <p>Une interface elegante qui met le texte au premier plan et facilite la relecture.</p>
+        </div>
+        <div class="info-card">
+          <h3>Approche</h3>
+          <p>Un parcours en trois etapes simples, sans jargon, pour aller droit au resultat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade">
+      <div class="section-head">
+        <span class="eyebrow">Engagements</span>
+        <h2>Une experience stable et professionnelle</h2>
+        <p>Nous mettons l accent sur la fiabilite visuelle, la lisibilite du texte et une interface rassurante.</p>
+      </div>
+      <div class="engagements">
+        <div class="engagement-card">
+          <h3>Lisibilite</h3>
+          <p>Une mise en forme qui valorise le texte sans distractions inutiles.</p>
+        </div>
+        <div class="engagement-card">
+          <h3>Confiance</h3>
+          <p>Des segments organises et des scores clairs pour une validation rapide.</p>
+        </div>
+        <div class="engagement-card">
+          <h3>Sobriete</h3>
+          <p>Une palette unique et elegante pour un rendu academique.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade">
+      <div class="section-head">
+        <span class="eyebrow">Processus</span>
+        <h2>Un parcours simple en trois etapes</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-index">01</div>
+          <h3>Televerser</h3>
+          <p>Choisir une image nette contenant du texte arabe.</p>
+        </div>
+        <div class="step">
+          <div class="step-index">02</div>
+          <h3>Analyser</h3>
+          <p>Lancer la lecture et attendre quelques secondes.</p>
+        </div>
+        <div class="step">
+          <div class="step-index">03</div>
+          <h3>Consulter</h3>
+          <p>Lire le texte detecte et verifier les segments si besoin.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="demarrer" class="section fade">
+      <div class="section-head">
+        <span class="eyebrow">Commencer</span>
+        <h2>Deposer une image et obtenir le texte</h2>
+        <p>Nous recommandons des images bien eclairees et lisibles pour un resultat plus propre.</p>
+      </div>
+      <div class="upload-card">
+        <form action="/ocr" method="post" enctype="multipart/form-data" class="form">
+          <div class="field">
+            <label for="file">Televerser une image</label>
+            <input id="file" name="file" type="file" accept="image/*" required />
+          </div>
+          <button class="btn" type="submit">Lancer l analyse</button>
+        </form>
+        {% if error %}
+        <div class="error">Service temporairement indisponible. Merci de reessayer.</div>
+        {% endif %}
+      </div>
+    </section>
+
+    {% if results %}
+    <section id="resultats" class="section fade">
+      <div class="section-head">
+        <span class="eyebrow">Resultats</span>
+        <h2>Texte detecte</h2>
+        <p>Le texte extrait est presente ci-dessous avec le detail par segment et le niveau de confiance.</p>
+      </div>
+      <div class="result-layout">
+        <div class="preview">
+          <img src="{{ results.image }}" alt="Image analysee" />
+        </div>
+        <div class="result-text">
+          <h3>Texte detecte</h3>
+          <pre class="rtl">{{ results.easy_text }}</pre>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="results-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Segment detecte</th>
+              <th>Confiance</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in results.rows %}
+            <tr>
+              <td class="cell-index">{{ row[0] + 1 }}</td>
+              <td class="rtl">{{ row[1] }}</td>
+              <td>
+                <div class="conf-meter" style="--conf: {{ row[2] }};">
+                  <div class="conf-track"><div class="conf-fill"></div></div>
+                  <span class="conf-value">{{ "%.0f"|format(row[2] * 100) }}%</span>
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    {% else %}
+    <section id="resultats" class="section fade">
+      <div class="section-head">
+        <span class="eyebrow">Resultats</span>
+        <h2>Les resultats apparaitront ici</h2>
+        <p>Deposez une image pour lancer la lecture et obtenir le texte detecte.</p>
+      </div>
+    </section>
+    {% endif %}
+
+    <section class="section fade">
+      <div class="section-head">
+        <span class="eyebrow">Questions frequentes</span>
+        <h2>Reponses rapides</h2>
+      </div>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>Quel type d image fonctionne le mieux ?</h3>
+          <p>Les images nettes et bien eclairees donnent les meilleurs resultats.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Puis-je verifier le texte detecte ?</h3>
+          <p>Oui, le tableau et l image annotee permettent une verification visuelle simple.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Le texte est-il pret a etre utilise ?</h3>
+          <p>Le resultat est presente de facon claire pour faciliter la relecture et la copie.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>Projet: Reconnaissance de texte arabe dans des images</div>
+      <div>Taha Lamhandi, Ayoub Nassih, Saad Abs, Jalal Grini</div>
+      <div>Encadre par Pr. Mohamed Cherradi</div>
+    </footer>
+  </div>
+</body>
+</html>

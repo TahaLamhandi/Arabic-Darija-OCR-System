@@ -1,0 +1,800 @@
+﻿images/img_0001.png	kskso dyal jm3a
+images/img_0002.png	مرحبا صاحبي
+images/img_0003.png	بلا معليش
+images/img_0004.png	عجبني بزاف
+images/img_0005.png	had chi zwin bzaf
+images/img_0006.png	had chi m3iyan
+images/img_0007.png	bslama
+images/img_0008.png	شنو كاتدير هنا؟
+images/img_0009.png	عندي امتحان غدا
+images/img_0010.png	بسلامة يا خويا
+images/img_0011.png	ما عجبنيش
+images/img_0012.png	mzyan 7amdullah
+images/img_0013.png	مرحبا صاحبي
+images/img_0014.png	واش فاهم؟
+images/img_0015.png	lkhobz khrj mn lforn
+images/img_0016.png	wach fahmt?
+images/img_0017.png	عجبني بزاف
+images/img_0018.png	wach kliti?
+images/img_0019.png	follow machi follow
+images/img_0020.png	لا باس عليك
+images/img_0021.png	had chi viral
+images/img_0022.png	had rajel mzyan
+images/img_0023.png	بشحال هاد الكيلو؟
+images/img_0024.png	شربت قهوة ديال صباح
+images/img_0025.png	yallah يالله nimchiw
+images/img_0026.png	بشحال هاد الكيلو؟
+images/img_0027.png	بغيت الماء عافاك
+images/img_0028.png	السوق بعيد شوية
+images/img_0029.png	fix l bug daba
+images/img_0030.png	raje3t m3a ssba7
+images/img_0031.png	had chi viral
+images/img_0032.png	khas t3awed
+images/img_0033.png	fin ghadi daba?
+images/img_0034.png	واش 3ndk data؟
+images/img_0035.png	رمضان مبارك
+images/img_0036.png	kif kif
+images/img_0037.png	transport public wlla taxi?
+images/img_0038.png	ghda inchallah
+images/img_0039.png	labas
+images/img_0040.png	dir balek 3la rasek
+images/img_0041.png	bla m3alych
+images/img_0042.png	كل شي بخير
+images/img_0043.png	غدا إن شاء الله
+images/img_0044.png	علاش ما جيتيش؟
+images/img_0045.png	خاصني نشري الخبز
+images/img_0046.png	من بكري لدابا
+images/img_0047.png	الدار ديالي هنا
+images/img_0048.png	بلا معليش
+images/img_0049.png	l7arira zwina
+images/img_0050.png	بسم الله الرحمن
+images/img_0051.png	الله أكبر
+images/img_0052.png	سهل بزاف
+images/img_0053.png	وسط المدينة
+images/img_0054.png	labas واش بخير
+images/img_0055.png	lkhobz khrj mn lforn
+images/img_0056.png	daba mshghol
+images/img_0057.png	سمك طازج اليوم
+images/img_0058.png	khas t3awed
+images/img_0059.png	مسمن بالعسل
+images/img_0060.png	رمضان مبارك
+images/img_0061.png	شوف rasek dir balek
+images/img_0062.png	kskso dyal jm3a
+images/img_0063.png	makainch mochkil
+images/img_0064.png	3jbni bzaf
+images/img_0065.png	download l app dyal bus
+images/img_0066.png	siifto 3liya
+images/img_0067.png	من بكري لدابا
+images/img_0068.png	الله يسلم
+images/img_0069.png	ماكاينش وقت
+images/img_0070.png	وسط المدينة
+images/img_0071.png	هاد الراجل مزيان
+images/img_0072.png	kif dayr كيف داير
+images/img_0073.png	yallah
+images/img_0074.png	ماكاينش وقت
+images/img_0075.png	s7ab t7iya
+images/img_0076.png	الصلاة خير من النوم
+images/img_0077.png	aji hna
+images/img_0078.png	كنقلب عليك
+images/img_0079.png	وسط المدينة
+images/img_0080.png	فالصباح باكري
+images/img_0081.png	yallah nimchiw
+images/img_0082.png	فالمدينة القديمة
+images/img_0083.png	khas njib lkhobz
+images/img_0084.png	mrhba
+images/img_0085.png	الحق على الله
+images/img_0086.png	ما عجبنيش
+images/img_0087.png	had rajel مزيان bzaf
+images/img_0088.png	salam 3lik
+images/img_0089.png	بغيت الماء عافاك
+images/img_0090.png	كل شي بخير
+images/img_0091.png	غادي نعاود غدا
+images/img_0092.png	tajin bnin bzaf
+images/img_0093.png	nchofo f insta
+images/img_0094.png	عندي امتحان غدا
+images/img_0095.png	شحال من وقت
+images/img_0096.png	عيد مبارك سعيد
+images/img_0097.png	had rajel مزيان bzaf
+images/img_0098.png	tbarak allah
+images/img_0099.png	مزيان had chi
+images/img_0100.png	kifach kayn internet hna?
+images/img_0101.png	كيف داير؟
+images/img_0102.png	allah y3in
+images/img_0103.png	3jbni bzaf
+images/img_0104.png	fin ghadi daba?
+images/img_0105.png	وسط المدينة
+images/img_0106.png	kskso dyal jm3a
+images/img_0107.png	غادي نعاود غدا
+images/img_0108.png	خدام فشركة
+images/img_0109.png	كيفاش دارها؟
+images/img_0110.png	labas عليك 3lik
+images/img_0111.png	yallah
+images/img_0112.png	فالمدينة القديمة
+images/img_0113.png	kif dayr?
+images/img_0114.png	مرقة بنينة بزاف
+images/img_0115.png	aji hna
+images/img_0116.png	wakha
+images/img_0117.png	ربي يسهل
+images/img_0118.png	kskso dyal jm3a
+images/img_0119.png	daba mshghol
+images/img_0120.png	شربت قهوة ديال صباح
+images/img_0121.png	3achin riyal
+images/img_0122.png	3ndi khidma bzaf
+images/img_0123.png	siifto 3liya
+images/img_0124.png	machi mochkil
+images/img_0125.png	واش بخير؟
+images/img_0126.png	هادشي زين بزاف
+images/img_0127.png	السلام عليكم
+images/img_0128.png	3ndi dolaro
+images/img_0129.png	yallah
+images/img_0130.png	had meeting muhim bzaf
+images/img_0131.png	مزيان هاد الفكرة
+images/img_0132.png	يعطيك الصحة
+images/img_0133.png	yallah
+images/img_0134.png	واش kayen parking hna
+images/img_0135.png	شنو كاتدير هنا؟
+images/img_0136.png	قلي الحق
+images/img_0137.png	فين غادي دابا؟
+images/img_0138.png	khmsa drhm
+images/img_0139.png	3achin riyal
+images/img_0140.png	مشيت لبلاد
+images/img_0141.png	شوف راسك
+images/img_0142.png	s7i7 wla la?
+images/img_0143.png	وسط المدينة
+images/img_0144.png	wakha
+images/img_0145.png	عندي امتحان غدا
+images/img_0146.png	هاد الراجل مزيان
+images/img_0147.png	3ndi khidma bzaf
+images/img_0148.png	khas t3awed
+images/img_0149.png	واش فاهم؟
+images/img_0150.png	خاصك تعاود
+images/img_0151.png	مرحبا mrhba 3lik
+images/img_0152.png	lkhobz khrj mn lforn
+images/img_0153.png	الراتب ناقص
+images/img_0154.png	bslama ya khwi
+images/img_0155.png	راه قريب منك
+images/img_0156.png	غدا إن شاء الله
+images/img_0157.png	بشحال هاد الكيلو؟
+images/img_0158.png	wach kliti?
+images/img_0159.png	من بكري لدابا
+images/img_0160.png	عجبني بزاف
+images/img_0161.png	فين غادي دابا؟
+images/img_0162.png	bghit atay 3afak
+images/img_0163.png	من بكري لدابا
+images/img_0164.png	safi
+images/img_0165.png	kifach kayn internet hna?
+images/img_0166.png	فين غادي دابا؟
+images/img_0167.png	الصيف حار بزاف
+images/img_0168.png	mcha mzyan 7amdullah
+images/img_0169.png	هاد الراجل مزيان
+images/img_0170.png	رجعت مع الصبح
+images/img_0171.png	labas واش بخير
+images/img_0172.png	3lach ma jitiych?
+images/img_0173.png	شوف راسك
+images/img_0174.png	3afak dir share
+images/img_0175.png	follow machi follow
+images/img_0176.png	هادشي معيان
+images/img_0177.png	السوق بعيد شوية
+images/img_0178.png	خدام فشركة
+images/img_0179.png	عندي امتحان غدا
+images/img_0180.png	الجو باغي يكون مزيان
+images/img_0181.png	khas t3awed
+images/img_0182.png	had chi m3iyan
+images/img_0183.png	الله y3in
+images/img_0184.png	السوق بعيد شوية
+images/img_0185.png	الحق على الله
+images/img_0186.png	بشحال هاد الكيلو؟
+images/img_0187.png	labas
+images/img_0188.png	نتلاقاو مع العشية
+images/img_0189.png	هادشي معيان
+images/img_0190.png	ولا لا؟
+images/img_0191.png	عندي امتحان غدا
+images/img_0192.png	ماشي هاد الشي
+images/img_0193.png	نتلاقاو مع العشية
+images/img_0194.png	3awed mr
+images/img_0195.png	طلبت كونجي
+images/img_0196.png	labas
+images/img_0197.png	s7i7 wla la?
+images/img_0198.png	الحمد لله بصح
+images/img_0199.png	had rajel مزيان bzaf
+images/img_0200.png	mcha ok thank god
+images/img_0201.png	مزيان had chi
+images/img_0202.png	machi ana
+images/img_0203.png	merci bzaf 3lik
+images/img_0204.png	بريوات ديال العيد
+images/img_0205.png	قلي الحق
+images/img_0206.png	هاد الراجل مزيان
+images/img_0207.png	الحق على الله
+images/img_0208.png	الله يبارك فيك
+images/img_0209.png	رمضان مبارك
+images/img_0210.png	الله y3in
+images/img_0211.png	وسط المدينة
+images/img_0212.png	3afak dir share
+images/img_0213.png	كيفاش دارها؟
+images/img_0214.png	عندي امتحان غدا
+images/img_0215.png	yallah يالله nimchiw
+images/img_0216.png	مرحبا mrhba 3lik
+images/img_0217.png	kif kif
+images/img_0218.png	allah y3in
+images/img_0219.png	شربت قهوة ديال صباح
+images/img_0220.png	ربي يسهل
+images/img_0221.png	مزيان had chi
+images/img_0222.png	ghadi nmchi l soq
+images/img_0223.png	3ndi khidma bzaf
+images/img_0224.png	bsh7al had lkilo?
+images/img_0225.png	يعطيك الصحة
+images/img_0226.png	khas njib lkhobz
+images/img_0227.png	mzyan 7amdullah
+images/img_0228.png	bonne chance inchallah
+images/img_0229.png	الخبز خرج من الفرن
+images/img_0230.png	شكرا bzzaf 3lik
+images/img_0231.png	خاصني نشري الخبز
+images/img_0232.png	مشا مزيان الحمد لله
+images/img_0233.png	bghit lma 3afak
+images/img_0234.png	had chi m3iyan
+images/img_0235.png	في الليل كاين برد
+images/img_0236.png	راه قريب منك
+images/img_0237.png	bslama
+images/img_0238.png	فالصباح باكري
+images/img_0239.png	bghit lma 3afak
+images/img_0240.png	f lil kayn berd
+images/img_0241.png	الاستاذ شرح مزيان
+images/img_0242.png	khas njib lkhobz
+images/img_0243.png	allah ysalem
+images/img_0244.png	labas واش بخير
+images/img_0245.png	صعيبة شوية
+images/img_0246.png	rbi ys7el
+images/img_0247.png	الصيف حار بزاف
+images/img_0248.png	الصلاة خير من النوم
+images/img_0249.png	mcha mzyan 7amdullah
+images/img_0250.png	ربي يسهل
+images/img_0251.png	ماكاينش وقت
+images/img_0252.png	ghali bzaf
+images/img_0253.png	نمشي لسوق
+images/img_0254.png	كنقلب عليك
+images/img_0255.png	had rajel مزيان bzaf
+images/img_0256.png	had rajel مزيان bzaf
+images/img_0257.png	نمشي لسوق
+images/img_0258.png	هاد الراجل مزيان
+images/img_0259.png	وسط المدينة
+images/img_0260.png	labas واش بخير
+images/img_0261.png	3afak
+images/img_0262.png	3afak
+images/img_0263.png	الله أكبر
+images/img_0264.png	الخبز خرج من الفرن
+images/img_0265.png	had meeting muhim bzaf
+images/img_0266.png	inchallah njib
+images/img_0267.png	mchi b3id chwyya
+images/img_0268.png	شوف rasek dir balek
+images/img_0269.png	m3ammer b 3sl
+images/img_0270.png	لا باس عليك
+images/img_0271.png	labas, got here f time
+images/img_0272.png	ربي يسهل
+images/img_0273.png	smak tazaj lyom
+images/img_0274.png	مزيان mzyan bzzaf
+images/img_0275.png	رجعت مع الصبح
+images/img_0276.png	دابا مشغول
+images/img_0277.png	عندي خدمة كتير
+images/img_0278.png	kif kif
+images/img_0279.png	إنشاء الله نجيب
+images/img_0280.png	raje3t m3a ssba7
+images/img_0281.png	allah y3in
+images/img_0282.png	صعيبة شوية
+images/img_0283.png	l7arira zwina
+images/img_0284.png	فالمدينة القديمة
+images/img_0285.png	قلي الحق
+images/img_0286.png	safi
+images/img_0287.png	fix l bug daba
+images/img_0288.png	بغيت الماء عافاك
+images/img_0289.png	عندي امتحان غدا
+images/img_0290.png	بلا معليش
+images/img_0291.png	واش بخير؟
+images/img_0292.png	ma3ndich ssarf
+images/img_0293.png	kskso dyal jm3a
+images/img_0294.png	فالمدينة القديمة
+images/img_0295.png	shokran bzaf
+images/img_0296.png	kif kif
+images/img_0297.png	نقرا فالجامعة
+images/img_0298.png	كيف داير؟
+images/img_0299.png	نمشي لسوق
+images/img_0300.png	3afak
+images/img_0301.png	safi
+images/img_0302.png	wach fahmt?
+images/img_0303.png	mcha ok thank god
+images/img_0304.png	ghadi nmchi l soq
+images/img_0305.png	كسكس ديال جمعة
+images/img_0306.png	مشيت لبلاد
+images/img_0307.png	مزيان هاد الفكرة
+images/img_0308.png	mrhba
+images/img_0309.png	choufo had lfilm
+images/img_0310.png	kifach kayn internet hna?
+images/img_0311.png	mrhba
+images/img_0312.png	سهل بزاف
+images/img_0313.png	نتلاقاو مع العشية
+images/img_0314.png	الدار ديالي هنا
+images/img_0315.png	siifto 3liya
+images/img_0316.png	shokran
+images/img_0317.png	ما شاء الله
+images/img_0318.png	f lil kayn berd
+images/img_0319.png	شربت قهوة ديال صباح
+images/img_0320.png	3ndi dolaro
+images/img_0321.png	labas
+images/img_0322.png	واش 3ndk data؟
+images/img_0323.png	follow machi follow
+images/img_0324.png	3afak
+images/img_0325.png	مرحبا صاحبي
+images/img_0326.png	had chi zwin bzaf
+images/img_0327.png	بلا شكر
+images/img_0328.png	3ndi dolaro
+images/img_0329.png	mzyan bzaf wallah
+images/img_0330.png	labas
+images/img_0331.png	follow machi follow
+images/img_0332.png	وسط المدينة
+images/img_0333.png	nta wach kayn?
+images/img_0334.png	غادي نعاود غدا
+images/img_0335.png	wakha
+images/img_0336.png	kifach kayn internet hna?
+images/img_0337.png	عجبني بزاف
+images/img_0338.png	labas, got here f time
+images/img_0339.png	كنقلب عليك
+images/img_0340.png	مزيان هاد الفكرة
+images/img_0341.png	choufo had lfilm
+images/img_0342.png	غدا إن شاء الله
+images/img_0343.png	مرحبا صاحبي
+images/img_0344.png	مكاينش مشكل
+images/img_0345.png	شكرا بزاف
+images/img_0346.png	labas
+images/img_0347.png	inchallah إن شاء الله
+images/img_0348.png	ماشي هاد الشي
+images/img_0349.png	shbt qa7wa dyal sba7
+images/img_0350.png	الحق على الله
+images/img_0351.png	bslama بسلامة
+images/img_0352.png	fin ghadi daba?
+images/img_0353.png	مزيان mzyan bzzaf
+images/img_0354.png	دابا مشغول
+images/img_0355.png	مزيان had chi
+images/img_0356.png	مرقة بنينة بزاف
+images/img_0357.png	شكرا bzzaf 3lik
+images/img_0358.png	وسط المدينة
+images/img_0359.png	غادي نعاود غدا
+images/img_0360.png	خدام فشركة
+images/img_0361.png	khas t3awed
+images/img_0362.png	خاصك تعاود
+images/img_0363.png	daba mshghol
+images/img_0364.png	mrhba sah9i
+images/img_0365.png	عيد مبارك سعيد
+images/img_0366.png	dir balek 3la rasek
+images/img_0367.png	هنا فالقريبة
+images/img_0368.png	machi had chi
+images/img_0369.png	واش بخير؟
+images/img_0370.png	machi ana
+images/img_0371.png	3ndi khidma bzaf
+images/img_0372.png	allah y3in
+images/img_0373.png	shokran bzaf
+images/img_0374.png	mcha mzyan 7amdullah
+images/img_0375.png	بسم الله الرحمن
+images/img_0376.png	فين غادي دابا؟
+images/img_0377.png	had chi mzyan
+images/img_0378.png	شكرا بزاف
+images/img_0379.png	ماكاينش وقت
+images/img_0380.png	merci bzaf 3lik
+images/img_0381.png	allah y3in
+images/img_0382.png	ربي يسهل
+images/img_0383.png	مزيان هاد الفكرة
+images/img_0384.png	خدمة مزيانة
+images/img_0385.png	الحق على الله
+images/img_0386.png	دير بالك على راسك
+images/img_0387.png	مشيت لبلاد
+images/img_0388.png	الاستاذ شرح مزيان
+images/img_0389.png	مزيان mzyan bzzaf
+images/img_0390.png	ma 3jbniych
+images/img_0391.png	safi
+images/img_0392.png	ghda inchallah
+images/img_0393.png	الله يعين
+images/img_0394.png	s7i7 wla la?
+images/img_0395.png	واش بخير؟
+images/img_0396.png	ملي جيت هنا
+images/img_0397.png	نقرا فالجامعة
+images/img_0398.png	ghadi nmchi l soq
+images/img_0399.png	m3ammer b 3sl
+images/img_0400.png	رد عليا عافاك
+images/img_0401.png	سير معايا
+images/img_0402.png	bard bzaf
+images/img_0403.png	هاد الشي خايب
+images/img_0404.png	wach 3ndk
+images/img_0405.png	fin taxi
+images/img_0406.png	ايوا
+images/img_0407.png	فين الكاراج
+images/img_0408.png	تسنى شوية
+images/img_0409.png	واش بخير
+images/img_0410.png	ma 3ndi walo
+images/img_0411.png	شنو درتي اليوم
+images/img_0412.png	jbel 9riba
+images/img_0413.png	fin tobis
+images/img_0414.png	ljaw zwin
+images/img_0415.png	شنو بغيت
+images/img_0416.png	ما كاين باس
+images/img_0417.png	lyoum bilil
+images/img_0418.png	شحال الثمن
+images/img_0419.png	ما نقدرش
+images/img_0420.png	صبر شوية
+images/img_0421.png	dir chi 7ell
+images/img_0422.png	sber chwia
+images/img_0423.png	أنا مشيت الخبز
+images/img_0424.png	ma n9drch
+images/img_0425.png	نتي كنكتب
+images/img_0426.png	nqss so7t
+images/img_0427.png	نتي غادي الدار
+images/img_0428.png	وقف شوية
+images/img_0429.png	هاد المكان خايب
+images/img_0430.png	نسيتي
+images/img_0431.png	الجو زوين
+images/img_0432.png	homa kanqra dwa
+images/img_0433.png	واش نتي فهمتي
+images/img_0434.png	labas 3lik
+images/img_0435.png	jawbni
+images/img_0436.png	zid chwia
+images/img_0437.png	ljaw khayb
+images/img_0438.png	7it kont mrid
+images/img_0439.png	lhamdullah
+images/img_0440.png	جيب ليا
+images/img_0441.png	بغيت نسولك
+images/img_0442.png	نقص الصوت
+images/img_0443.png	tsna chwia
+images/img_0444.png	nhar zwin
+images/img_0445.png	عندك الوقت
+images/img_0446.png	كنبغي القراية
+images/img_0447.png	bghit nrkeb
+images/img_0448.png	had chi khayb
+images/img_0449.png	اليوم بالليل
+images/img_0450.png	thalla
+images/img_0451.png	wach nti bikhir
+images/img_0452.png	allah yr7m lwalidin
+images/img_0453.png	سير شوية
+images/img_0454.png	سمح ليا
+images/img_0455.png	شفتك
+images/img_0456.png	ana kanqra l9ahwa
+images/img_0457.png	fin jama3
+images/img_0458.png	طلع الصوت
+images/img_0459.png	kanshoufk
+images/img_0460.png	chno lwe9t
+images/img_0461.png	bghit nfhem
+images/img_0462.png	3awd min fadlak
+images/img_0463.png	مفهوم
+images/img_0464.png	كتشوفني
+images/img_0465.png	jib lia
+images/img_0466.png	اليوم العشية
+images/img_0467.png	صيفط ليا
+images/img_0468.png	7it mchghol
+images/img_0469.png	fin sbitar
+images/img_0470.png	m3a slama
+images/img_0471.png	7na kansouq ddar
+images/img_0472.png	هضر بشوية
+images/img_0473.png	فين المدرسة
+images/img_0474.png	نقدر دابا
+images/img_0475.png	7na chft tobis
+images/img_0476.png	howa kanektb souq
+images/img_0477.png	ghadi njii
+images/img_0478.png	kanbghi l9raya
+images/img_0479.png	جاوبني
+images/img_0480.png	غادي نجي
+images/img_0481.png	فين الخدمة
+images/img_0482.png	ما قدرتش ننعس
+images/img_0483.png	سمح ليا ختي
+images/img_0484.png	fin lmdrasa
+images/img_0485.png	fin saydaliya
+images/img_0486.png	wach nta fhemt
+images/img_0487.png	ch7al lwe9t
+images/img_0488.png	3ndi mouchkil
+images/img_0489.png	wach nti fhemt
+images/img_0490.png	msa lkhir
+images/img_0491.png	allah y3awn
+images/img_0492.png	3lach ktab
+images/img_0493.png	بغيت نمشي
+images/img_0494.png	khayb bzaf
+images/img_0495.png	راه كاين
+images/img_0496.png	بغيت نهبط
+images/img_0497.png	نقص شوية
+images/img_0498.png	taman ghali
+images/img_0499.png	خلي هاد الشي
+images/img_0500.png	غادي نمشي
+images/img_0501.png	ماشي ضروري
+images/img_0502.png	فين القنطرة
+images/img_0503.png	نتي كنسوق الشارع
+images/img_0504.png	3yit lia
+images/img_0505.png	عطيني
+images/img_0506.png	aywa
+images/img_0507.png	ma fhemtch
+images/img_0508.png	أنا كنقرا الخبز
+images/img_0509.png	هاد الشي زوين
+images/img_0510.png	3ndk lwe9t
+images/img_0511.png	lkhedma zwina
+images/img_0512.png	ana chft ddar
+images/img_0513.png	had chi zwin
+images/img_0514.png	فين البوسطة
+images/img_0515.png	واش هي بخير
+images/img_0516.png	كنبغي الموسيقى
+images/img_0517.png	ghadi nrsal
+images/img_0518.png	نتي كنخدم الجامعة
+images/img_0519.png	كنشوفك
+images/img_0520.png	rah makaynch
+images/img_0521.png	ntoma ghadi lkhobz
+images/img_0522.png	الجو خايب
+images/img_0523.png	سخون بزاف
+images/img_0524.png	نتا شفت الشارع
+images/img_0525.png	شحال الوقت
+images/img_0526.png	كنقرا دابا
+images/img_0527.png	هما بغيت الطوبيس
+images/img_0528.png	فين الجامع
+images/img_0529.png	كنخدم دابا
+images/img_0530.png	nqss chwia
+images/img_0531.png	n9dr daba
+images/img_0532.png	أنا جاي الخدمة
+images/img_0533.png	lkhedma s3iba
+images/img_0534.png	chno lkhbar
+images/img_0535.png	tri9 9riba
+images/img_0536.png	bslama
+images/img_0537.png	شفته
+images/img_0538.png	lyoum 3chiya
+images/img_0539.png	nji daba
+images/img_0540.png	chokran bzaf
+images/img_0541.png	التمن رخيص
+images/img_0542.png	bghit nrtah
+images/img_0543.png	الحمد لله
+images/img_0544.png	هي كنكتب الخبز
+images/img_0545.png	صعيب بزاف
+images/img_0546.png	ma 9drtch n3ss
+images/img_0547.png	nta kansouq dwa
+images/img_0548.png	هو شفت الخبز
+images/img_0549.png	fin mchit
+images/img_0550.png	الخدمة زوينة
+images/img_0551.png	bsa7a
+images/img_0552.png	ghadi l souq
+images/img_0553.png	فين الطوبيس
+images/img_0554.png	wach howa bikhir
+images/img_0555.png	شكرا بزاف
+images/img_0556.png	مزيان بزاف
+images/img_0557.png	ma kayn bas
+images/img_0558.png	شنو الوقت
+images/img_0559.png	rah kayn
+images/img_0560.png	fin l7ouma
+images/img_0561.png	khlli had chi
+images/img_0562.png	katshoufni
+images/img_0563.png	fin ddar
+images/img_0564.png	بغيت نسول
+images/img_0565.png	w9ef chwia
+images/img_0566.png	7na jiti jam3a
+images/img_0567.png	الطريق بعيدة
+images/img_0568.png	darori daba
+images/img_0569.png	واش هو بخير
+images/img_0570.png	زيد معايا
+images/img_0571.png	اليوم الصباح
+images/img_0572.png	kan5dem daba
+images/img_0573.png	bghit n3ss
+images/img_0574.png	ضروري دابا
+images/img_0575.png	3lach lmdrasa
+images/img_0576.png	دابا جاي
+images/img_0577.png	fin sakin
+images/img_0578.png	لاباس عليك
+images/img_0579.png	بغيت نركب
+images/img_0580.png	bghit l9ahwa
+images/img_0581.png	فين غادي
+images/img_0582.png	3tini
+images/img_0583.png	جاي من السوق
+images/img_0584.png	bghit nmchi
+images/img_0585.png	غدا العشية
+images/img_0586.png	حيت كنت مريض
+images/img_0587.png	s3ib bzaf
+images/img_0588.png	عافاك
+images/img_0589.png	3afak
+images/img_0590.png	khod had chi
+images/img_0591.png	أنا جاي المدرسة
+images/img_0592.png	chkoun had
+images/img_0593.png	غادي نعيط
+images/img_0594.png	ما عنديش مشكل
+images/img_0595.png	زيد شوية
+images/img_0596.png	skhoun bzaf
+images/img_0597.png	homa kansouq lmdrasa
+images/img_0598.png	howa mchit ktab
+images/img_0599.png	kif dayr
+images/img_0600.png	machi darori
+images/img_0601.png	غادي للسوق
+images/img_0602.png	jayi mn souq
+images/img_0603.png	بغيت نرتاح
+images/img_0604.png	bghit n3raf
+images/img_0605.png	راه جاي
+images/img_0606.png	عندي الوقت
+images/img_0607.png	كلشي بخير
+images/img_0608.png	kanbghik
+images/img_0609.png	غادي نرسل
+images/img_0610.png	ana bghit tobis
+images/img_0611.png	شنو قصدك
+images/img_0612.png	mzyan bzaf
+images/img_0613.png	عندي بزاف
+images/img_0614.png	chno deriti lyoum
+images/img_0615.png	إلى اللقاء
+images/img_0616.png	عندي مشكل
+images/img_0617.png	wach nta bikhir
+images/img_0618.png	غادي ننعس
+images/img_0619.png	برد بزاف
+images/img_0620.png	wakhha
+images/img_0621.png	باقي ما جاهز
+images/img_0622.png	kanqra daba
+images/img_0623.png	بغيت ننعس
+images/img_0624.png	ghdda sbah
+images/img_0625.png	hadik lbar7
+images/img_0626.png	nti kanektb lkhobz
+images/img_0627.png	نتوما كنسوق الطوبيس
+images/img_0628.png	sbah lkhir
+images/img_0629.png	rah ja
+images/img_0630.png	الخدمة صعيبة
+images/img_0631.png	taman rkhis
+images/img_0632.png	بغيت القهوة
+images/img_0633.png	nji ghdda
+images/img_0634.png	نتوما كنخدم الدار
+images/img_0635.png	خود هاد الشي
+images/img_0636.png	الوقت ضيق
+images/img_0637.png	غدا الصباح
+images/img_0638.png	هاديك لبارح
+images/img_0639.png	ماشي مشكل
+images/img_0640.png	daba ghadi
+images/img_0641.png	فين الدواء
+images/img_0642.png	ghadi nmchi
+images/img_0643.png	hder bchwiya
+images/img_0644.png	chno bghiti
+images/img_0645.png	sm7 lia khti
+images/img_0646.png	ghir chwia
+images/img_0647.png	فين الطاكسي
+images/img_0648.png	ghadi n3yit
+images/img_0649.png	ma 3ndich mouchkil
+images/img_0650.png	zid m3aya
+images/img_0651.png	ntoma kansouq ktab
+images/img_0652.png	ما فهمتش
+images/img_0653.png	دير شي حل
+images/img_0654.png	غادي ل الدار
+images/img_0655.png	7na sme3t
+images/img_0656.png	howa sme3t lkhobz
+images/img_0657.png	7na kan5dem lkhedma
+images/img_0658.png	sir chwia
+images/img_0659.png	rah mcha
+images/img_0660.png	شكون جا
+images/img_0661.png	فين الصيدلية
+images/img_0662.png	7na chft ktab
+images/img_0663.png	كنبغي الكرة
+images/img_0664.png	homa kanektb lkhobz
+images/img_0665.png	صحابك مزيانين
+images/img_0666.png	أنا غادي الطوبيس
+images/img_0667.png	sm7 lia
+images/img_0668.png	راه غادي
+images/img_0669.png	sm7 lia khoya
+images/img_0670.png	kanbghi atay
+images/img_0671.png	هي سمعت الخبز
+images/img_0672.png	بغيت نفهم
+images/img_0673.png	ما عندي والو
+images/img_0674.png	راه مشى
+images/img_0675.png	bghit nhbet
+images/img_0676.png	شحال هادا
+images/img_0677.png	هما كنسوق الكتاب
+images/img_0678.png	allah ykhellik
+images/img_0679.png	kansouq daba
+images/img_0680.png	تفاهمنا
+images/img_0681.png	chfto
+images/img_0682.png	نتوما كنسمع الموسيقى
+images/img_0683.png	had blasa zwina
+images/img_0684.png	واش عندك
+images/img_0685.png	fin stasyon
+images/img_0686.png	3ndk chi jdid
+images/img_0687.png	s7abk mzyanin
+images/img_0688.png	كنبغي الخدمة
+images/img_0689.png	فين ساكن
+images/img_0690.png	واش نتا فهمتي
+images/img_0691.png	شكون هاد
+images/img_0692.png	kolchi mzyan
+images/img_0693.png	كنبغيك
+images/img_0694.png	نتا كنسمع الدواء
+images/img_0695.png	فين مشيتي
+images/img_0696.png	chno 9sdek
+images/img_0697.png	راه ما كاينش
+images/img_0698.png	بغيت خبز
+images/img_0699.png	فين الستاسيون
+images/img_0700.png	حيت مشغول
+images/img_0701.png	شحال هادي
+images/img_0702.png	نتي كنسمع الشارع
+images/img_0703.png	بغيت نعيط
+images/img_0704.png	tl3 so7t
+images/img_0705.png	كنسوق دابا
+images/img_0706.png	ntoma kanektb
+images/img_0707.png	ch7al hada
+images/img_0708.png	الله يعاون
+images/img_0709.png	had blasa khayba
+images/img_0710.png	howa jiti ktab
+images/img_0711.png	ما جاوبتيش
+images/img_0712.png	hiya chft jam3a
+images/img_0713.png	kanbghi l-kora
+images/img_0714.png	3ndi lwe9t
+images/img_0715.png	التمن غالي
+images/img_0716.png	fin ghadi
+images/img_0717.png	hiya jiti lmdrasa
+images/img_0718.png	واش كاين
+images/img_0719.png	fin lkhedma
+images/img_0720.png	lwe9t dyi9
+images/img_0721.png	mafhoum
+images/img_0722.png	هاد المكان زوين
+images/img_0723.png	daba jayi
+images/img_0724.png	واش نتا بخير
+images/img_0725.png	lhamdullah mzyan
+images/img_0726.png	ma 3ndich
+images/img_0727.png	سمح ليا خويا
+images/img_0728.png	ma jawabtich
+images/img_0729.png	بغيت نعرف
+images/img_0730.png	nsiti
+images/img_0731.png	sir m3aya
+images/img_0732.png	ما عنديش
+images/img_0733.png	fin mchiiti
+images/img_0734.png	ghadi n3ss
+images/img_0735.png	mazal majach
+images/img_0736.png	شحال غادي
+images/img_0737.png	نتوما بغيت
+images/img_0738.png	عندك شي جديد
+images/img_0739.png	kanbghi l-mousi9a
+images/img_0740.png	الله يخليك
+images/img_0741.png	lyoum sbah
+images/img_0742.png	واش نتي بخير
+images/img_0743.png	نجي غدا
+images/img_0744.png	تهلا
+images/img_0745.png	bghit nsawl
+images/img_0746.png	فين الدار
+images/img_0747.png	bghit n3yit
+images/img_0748.png	الله يرحم الوالدين
+images/img_0749.png	wach hiya bikhir
+images/img_0750.png	الحمد لله بخير
+images/img_0751.png	ghdda 3chiya
+images/img_0752.png	ch7al hadi
+images/img_0753.png	ch7al taman
+images/img_0754.png	واخا
+images/img_0755.png	howa mchit dwa
+images/img_0756.png	rah jayi
+images/img_0757.png	كيف داير
+images/img_0758.png	tri9 b3ida
+images/img_0759.png	فين الحومة
+images/img_0760.png	bghit lkhobz
+images/img_0761.png	ساهل بزاف
+images/img_0762.png	ما زال ما جاش
+images/img_0763.png	chftk
+images/img_0764.png	hiya sme3t
+images/img_0765.png	مع السلامة
+images/img_0766.png	sift lia
+images/img_0767.png	نهار زوين
+images/img_0768.png	machi mochkil
+images/img_0769.png	مساء الخير
+images/img_0770.png	نجي دابا
+images/img_0771.png	دابا غادي
+images/img_0772.png	3ndi bzaf
+images/img_0773.png	راه جا
+images/img_0774.png	عيط ليا
+images/img_0775.png	kanbghi lkhedma
+images/img_0776.png	فين المستشفى
+images/img_0777.png	rah ghadi
+images/img_0778.png	صبح الخير
+images/img_0779.png	واش حنا بخير
+images/img_0780.png	tfahmna
+images/img_0781.png	هو مشيت الكتاب
+images/img_0782.png	bghit nsawlk
+images/img_0783.png	هي غادي الدار
+images/img_0784.png	عاود من فضلك
+images/img_0785.png	ila l9a2
+images/img_0786.png	wach kayn
+images/img_0787.png	بصحة
+images/img_0788.png	شنو الأخبار
+images/img_0789.png	الطريق قريبة
+images/img_0790.png	بالسلامة
+images/img_0791.png	فين الجامعة
+images/img_0792.png	sme3tek
+images/img_0793.png	كنبغي الشاي
+images/img_0794.png	sahl bzaf
+images/img_0795.png	wach 7na bikhir
+images/img_0796.png	غير شوية
+images/img_0797.png	baqi ma jahz
+images/img_0798.png	خايب بزاف
+images/img_0799.png	سمعتك
+images/img_0800.png	chkoun ja

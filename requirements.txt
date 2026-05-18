@@ -1,0 +1,11 @@
+easyocr
+numpy
+opencv-python
+pandas
+pillow
+fastapi
+jinja2
+python-multipart
+streamlit
+torch
+uvicorn
