@@ -20,7 +20,6 @@
       <div class="brand">Systeme OCR Arabe</div>
       <nav class="nav">
         <a href="#accueil">Accueil</a>
-        <a href="#apropos">A propos</a>
         <a href="#demarrer">Commencer</a>
         <a href="#resultats">Resultats</a>
       </nav>
@@ -33,7 +32,6 @@
         <p class="subtitle">Une experience simple, soignee et fiable pour extraire le texte et le consulter dans un format propre.</p>
         <div class="hero-actions">
           <a class="btn" href="#demarrer">Commencer</a>
-          <a class="btn ghost" href="#apropos">Decouvrir</a>
         </div>
         <div class="hero-pills">
           <span>Analyse rapide</span>
@@ -52,92 +50,46 @@
       </div>
     </section>
 
-    <section id="apropos" class="section fade">
-      <div class="section-head">
-        <span class="eyebrow">A propos</span>
-        <h2>Une plateforme claire, humaine et concentree sur l essentiel</h2>
-        <p>Notre objectif est de proposer une lecture fluide du texte arabe a partir d images, avec une presentation propre et une verification simple des zones detectees.</p>
-      </div>
-      <div class="section-grid">
-        <div class="info-card">
-          <h3>Pour qui</h3>
-          <p>Etudiants, enseignants, chercheurs et professionnels qui souhaitent gagner du temps lors de la lecture de documents.</p>
-        </div>
-        <div class="info-card">
-          <h3>Valeur</h3>
-          <p>Une interface elegante qui met le texte au premier plan et facilite la relecture.</p>
-        </div>
-        <div class="info-card">
-          <h3>Approche</h3>
-          <p>Un parcours en trois etapes simples, sans jargon, pour aller droit au resultat.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section fade">
-      <div class="section-head">
-        <span class="eyebrow">Engagements</span>
-        <h2>Une experience stable et professionnelle</h2>
-        <p>Nous mettons l accent sur la fiabilite visuelle, la lisibilite du texte et une interface rassurante.</p>
-      </div>
-      <div class="engagements">
-        <div class="engagement-card">
-          <h3>Lisibilite</h3>
-          <p>Une mise en forme qui valorise le texte sans distractions inutiles.</p>
-        </div>
-        <div class="engagement-card">
-          <h3>Confiance</h3>
-          <p>Des segments organises et des scores clairs pour une validation rapide.</p>
-        </div>
-        <div class="engagement-card">
-          <h3>Sobriete</h3>
-          <p>Une palette unique et elegante pour un rendu academique.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section fade">
-      <div class="section-head">
-        <span class="eyebrow">Processus</span>
-        <h2>Un parcours simple en trois etapes</h2>
-      </div>
-      <div class="steps">
-        <div class="step">
-          <div class="step-index">01</div>
-          <h3>Televerser</h3>
-          <p>Choisir une image nette contenant du texte arabe.</p>
-        </div>
-        <div class="step">
-          <div class="step-index">02</div>
-          <h3>Analyser</h3>
-          <p>Lancer la lecture et attendre quelques secondes.</p>
-        </div>
-        <div class="step">
-          <div class="step-index">03</div>
-          <h3>Consulter</h3>
-          <p>Lire le texte detecte et verifier les segments si besoin.</p>
-        </div>
-      </div>
-    </section>
-
     <section id="demarrer" class="section fade">
       <div class="section-head">
         <span class="eyebrow">Commencer</span>
         <h2>Deposer une image et obtenir le texte</h2>
         <p>Nous recommandons des images bien eclairees et lisibles pour un resultat plus propre.</p>
       </div>
-      <div class="upload-card">
-        <form action="/ocr" method="post" enctype="multipart/form-data" class="form">
-          <div class="field">
-            <label for="file">Televerser une image</label>
-            <input id="file" name="file" type="file" accept="image/*" required />
+      <section class="upload-section">
+        <form action="/ocr" method="post" enctype="multipart/form-data" class="upload-form" id="upload-form">
+          <div class="upload-card" id="drop-zone">
+            <div class="doc-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="presentation" focusable="false">
+                <path d="M14 8h14l6 6v22a4 4 0 0 1-4 4H14a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4z" fill="none" stroke="currentColor" stroke-width="2" />
+                <path d="M28 8v8h8" fill="none" stroke="currentColor" stroke-width="2" />
+                <path d="M18 24h12M18 30h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h1>Glissez votre image ici ou cliquez sur Parcourir</h1>
+            <p class="upload-sub">Deposez votre fichier et lancez l analyse.</p>
+            <input id="file" name="file" type="file" accept=".jpg,.jpeg,.png,.webp,.gif,.bmp,.heic,.pdf,.tiff" class="file-input" required />
+            <label for="file" class="btn btn-primary">
+              <span class="btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                  <path d="M12 4v10m0-10l-4 4m4-4l4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5 16v3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </span>
+              Parcourir
+            </label>
+            <p class="formats">
+              Formats pris en charge:
+              <span class="format-list">JPG, PNG, WEBP, GIF, BMP, HEIC, PDF, TIFF</span>
+            </p>
           </div>
-          <button class="btn" type="submit">Lancer l analyse</button>
+          <button class="btn btn-primary btn-submit" type="submit">Lancer</button>
+          <p class="fine-print upload-note">Conseil: image nette, bon contraste.</p>
         </form>
         {% if error %}
         <div class="error">Service temporairement indisponible. Merci de reessayer.</div>
         {% endif %}
-      </div>
+      </section>
     </section>
 
     {% if results %}
@@ -191,7 +143,6 @@
       </div>
     </section>
     {% endif %}
-
     <section class="section fade">
       <div class="section-head">
         <span class="eyebrow">Questions frequentes</span>

@@ -1,12 +1,14 @@
 :root {
   --accent: #1d3b5a;
   --accent-strong: #142c45;
-  --accent-soft: rgba(29, 59, 90, 0.08);
-  --ink: #111827;
-  --muted: #4b5563;
-  --line: #e5e7eb;
-  --paper: #f8fafc;
-  --shadow: rgba(15, 23, 42, 0.08);
+  --accent-soft: rgba(29, 59, 90, 0.12);
+  --accent-warm: #1d3b5a;
+  --accent-warm-strong: #142c45;
+  --ink: #0f172a;
+  --muted: #475569;
+  --line: #e2e8f0;
+  --paper: #fbfbf9;
+  --shadow: rgba(15, 23, 42, 0.12);
 }
 
 * {
@@ -18,8 +20,9 @@ body {
   font-family: "Source Sans 3", "Segoe UI", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(1000px 520px at 12% 0%, rgba(29, 59, 90, 0.12) 0%, rgba(29, 59, 90, 0.02) 45%, #ffffff 100%),
-    linear-gradient(135deg, #f5f7fa 0%, #ffffff 60%);
+    radial-gradient(900px 520px at 88% 0%, rgba(29, 59, 90, 0.14) 0%, rgba(29, 59, 90, 0) 55%),
+    radial-gradient(1000px 620px at 10% 8%, rgba(29, 59, 90, 0.18) 0%, rgba(29, 59, 90, 0.02) 60%),
+    linear-gradient(140deg, #f6f8fb 0%, #ffffff 55%);
 }
 
 .backdrop {
@@ -36,6 +39,7 @@ body {
   background: radial-gradient(circle at 30% 30%, rgba(29, 59, 90, 0.22), rgba(29, 59, 90, 0.02));
   filter: blur(0px);
   color: var(--accent-strong);
+  animation: float 12s ease-in-out infinite;
 }
 
 .orb-1 {
@@ -50,6 +54,7 @@ body {
   height: 260px;
   bottom: 80px;
   left: -80px;
+  animation-delay: -3s;
 }
 
 .orb-3 {
@@ -59,6 +64,7 @@ body {
   right: 12%;
   color: var(--accent-strong);
   opacity: 0.6;
+  animation-delay: -6s;
 }
 
 h1, h2, h3 {
@@ -111,8 +117,8 @@ h2 {
   gap: 24px;
   padding: 32px;
   border-radius: 22px;
-  background: var(--accent-soft);
-  border: 1px solid rgba(29, 59, 90, 0.15);
+  background: linear-gradient(135deg, rgba(29, 59, 90, 0.12), rgba(29, 59, 90, 0.06));
+  border: 1px solid rgba(29, 59, 90, 0.18);
   box-shadow: 0 16px 36px var(--shadow);
 }
 
@@ -307,19 +313,113 @@ h2 {
   color: var(--accent);
 }
 
-.upload-card {
-  background: #ffffff;
-  border-radius: 18px;
-  padding: 20px;
-  border: 1px solid var(--line);
-  box-shadow: 0 12px 28px var(--shadow);
+.upload-section {
+  display: grid;
+  gap: 16px;
 }
 
-.form {
-  display: flex;
+.upload-form {
+  display: grid;
   gap: 16px;
-  flex-wrap: wrap;
-  align-items: end;
+  justify-items: center;
+  position: relative;
+}
+
+.upload-card {
+  width: min(780px, 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.94));
+  border-radius: 26px;
+  padding: 36px 28px 30px;
+  border: 2px dashed rgba(29, 59, 90, 0.32);
+  box-shadow: 0 20px 40px var(--shadow);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.upload-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(29, 59, 90, 0.1), transparent 45%),
+    radial-gradient(circle at 80% 80%, rgba(29, 59, 90, 0.08), transparent 55%);
+  pointer-events: none;
+}
+
+.doc-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 16px;
+  background: rgba(29, 59, 90, 0.12);
+  color: var(--accent);
+  box-shadow: inset 0 0 0 1px rgba(29, 59, 90, 0.18);
+}
+
+.doc-icon svg {
+  width: 34px;
+  height: 34px;
+}
+
+.upload-card h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: var(--accent-strong);
+}
+
+.upload-sub {
+  margin: 0 0 16px;
+  color: var(--muted);
+}
+
+.formats {
+  margin: 14px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.format-list {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.btn-icon {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.btn-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.btn-submit {
+  padding: 12px 30px;
+}
+
+.upload-note {
+  text-align: center;
+}
+
+.file-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.fine-print {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
 }
 
 .field {
@@ -337,19 +437,39 @@ label {
   background: linear-gradient(135deg, var(--accent), var(--accent-strong));
   color: #ffffff;
   border: none;
-  padding: 12px 20px;
-  border-radius: 12px;
+  padding: 12px 22px;
+  border-radius: 14px;
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 12px 22px rgba(29, 59, 90, 0.18);
+  box-shadow: 0 14px 26px rgba(29, 59, 90, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
 }
 
 .btn:hover {
-  filter: brightness(0.95);
+  filter: brightness(1.02);
+  transform: translateY(-1px);
+  box-shadow: 0 18px 30px rgba(29, 59, 90, 0.28);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+}
+
+.btn-upload {
+  background: linear-gradient(135deg, var(--accent-warm), var(--accent-warm-strong));
+  box-shadow: 0 14px 26px rgba(29, 59, 90, 0.24);
+}
+
+.btn-upload:hover {
+  box-shadow: 0 18px 32px rgba(29, 59, 90, 0.3);
 }
 
 .btn.ghost {
@@ -518,6 +638,11 @@ tbody tr:hover {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(14px); }
+}
+
 @media (max-width: 820px) {
   .site-header {
     flex-direction: column;
@@ -529,13 +654,18 @@ tbody tr:hover {
   .hero h1 {
     font-size: 30px;
   }
+  .upload-card {
+    padding: 28px 20px;
+  }
+  .upload-card h1 {
+    font-size: 24px;
+  }
+  .btn-submit {
+    width: min(320px, 100%);
+  }
 }
 
 @media (max-width: 640px) {
-  .form {
-    flex-direction: column;
-    align-items: stretch;
-  }
   .nav {
     gap: 12px;
   }
