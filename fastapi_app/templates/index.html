@@ -78,16 +78,26 @@
               </span>
               Parcourir
             </label>
+            <button type="button" class="paste-btn paste-btn--corner" id="paste-btn" aria-label="Coller une image">
+              <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                <path d="M9 4h6a2 2 0 0 1 2 2v1h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h1V6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2" />
+                <path d="M9 7h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              Coller
+            </button>
             <p class="formats">
               Formats pris en charge:
               <span class="format-list">JPG, PNG, WEBP, GIF, BMP, HEIC, PDF, TIFF</span>
             </p>
+            <p class="fine-print">Astuce: vous pouvez coller une image depuis le presse-papiers (Ctrl+V).</p>
           </div>
           <button class="btn btn-primary btn-submit" type="submit">Lancer</button>
           <p class="fine-print upload-note">Conseil: image nette, bon contraste.</p>
         </form>
+        <div id="client-error" class="alert alert-error" style="display:none;"></div>
+        <div id="client-success" class="alert" style="display:none;"></div>
         {% if error %}
-        <div class="error">Service temporairement indisponible. Merci de reessayer.</div>
+        <div class="alert alert-error">{{ error }}</div>
         {% endif %}
       </section>
     </section>
@@ -105,7 +115,11 @@
         </div>
         <div class="result-text">
           <h3>Texte detecte</h3>
+          {% if results.easy_text and results.easy_text|trim %}
           <pre class="rtl">{{ results.easy_text }}</pre>
+          {% else %}
+          <div class="alert alert-warn">Aucun texte detecte.</div>
+          {% endif %}
         </div>
       </div>
       <div class="table-wrap">
@@ -170,5 +184,113 @@
       <div>Encadre par Pr. Mohamed Cherradi</div>
     </footer>
   </div>
+  <script>
+    const MAX_UPLOAD_BYTES = 8 * 1024 * 1024;
+    const allowedTypes = [
+      "image/jpeg",
+      "image/png",
+      "image/webp",
+      "image/gif",
+      "image/bmp",
+      "image/tiff"
+    ];
+    const fileInput = document.getElementById("file");
+    const clientError = document.getElementById("client-error");
+    const uploadForm = document.getElementById("upload-form");
+    const pasteButton = document.getElementById("paste-btn");
+    const clientSuccess = document.getElementById("client-success");
+
+    function showClientError(message) {
+      clientError.textContent = message;
+      clientError.style.display = "block";
+      clientSuccess.style.display = "none";
+    }
+
+    function clearClientError() {
+      clientError.textContent = "";
+      clientError.style.display = "none";
+    }
+
+    function showClientSuccess(message) {
+      clientSuccess.textContent = message;
+      clientSuccess.style.display = "block";
+    }
+
+    function validateFile(file) {
+      if (!file) {
+        return true;
+      }
+      if (!allowedTypes.includes(file.type)) {
+        showClientError("Type de fichier non pris en charge. Utilisez PNG, JPG, WEBP, BMP, GIF, ou TIFF.");
+        return false;
+      }
+      if (file.size > MAX_UPLOAD_BYTES) {
+        showClientError("Fichier trop volumineux. Taille max: 8 MB.");
+        return false;
+      }
+      clearClientError();
+      return true;
+    }
+
+    function setFileFromBlob(blob) {
+      const file = new File([blob], "clipboard.png", { type: blob.type || "image/png" });
+      const dataTransfer = new DataTransfer();
+      dataTransfer.items.add(file);
+      fileInput.files = dataTransfer.files;
+      validateFile(file);
+    }
+
+    async function pasteFromClipboard() {
+      if (!navigator.clipboard || !navigator.clipboard.read) {
+        showClientError("Collage non disponible dans ce navigateur.");
+        return;
+      }
+      try {
+        const items = await navigator.clipboard.read();
+        for (const item of items) {
+          const imageType = item.types.find((type) => type.startsWith("image/"));
+          if (imageType) {
+            const blob = await item.getType(imageType);
+            setFileFromBlob(blob);
+            showClientSuccess("Image collee avec succes.");
+            return;
+          }
+        }
+        showClientError("Le presse-papiers ne contient pas d image.");
+      } catch (err) {
+        showClientError("Autorisation requise pour coller une image.");
+      }
+    }
+
+    fileInput.addEventListener("change", () => {
+      validateFile(fileInput.files[0]);
+    });
+
+    uploadForm.addEventListener("submit", (event) => {
+      if (!validateFile(fileInput.files[0])) {
+        event.preventDefault();
+      }
+    });
+
+    pasteButton.addEventListener("click", () => {
+      pasteFromClipboard();
+    });
+
+    document.addEventListener("paste", (event) => {
+      const items = event.clipboardData && event.clipboardData.items ? event.clipboardData.items : [];
+      for (const item of items) {
+        if (item.type && item.type.startsWith("image/")) {
+          const blob = item.getAsFile();
+          if (blob) {
+            setFileFromBlob(blob);
+            showClientSuccess("Image collee avec succes.");
+            event.preventDefault();
+          }
+          return;
+        }
+      }
+      showClientError("Le presse-papiers ne contient pas d image.");
+    });
+  </script>
 </body>
 </html>

@@ -4,7 +4,7 @@ import os
 from typing import List, Tuple
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageEnhance, ImageOps
+from PIL import Image, ImageDraw, ImageEnhance, ImageOps, UnidentifiedImageError
 
 import torch
 import torch.nn as nn
@@ -91,6 +91,19 @@ def predict_pil(model, pil_img, idx_to_char_local, img_height, max_width, device
     return pred
 
 
+MAX_UPLOAD_MB = 8
+MAX_UPLOAD_BYTES = MAX_UPLOAD_MB * 1024 * 1024
+ALLOWED_MIME_TYPES = {
+    "image/jpeg",
+    "image/png",
+    "image/webp",
+    "image/gif",
+    "image/bmp",
+    "image/tiff",
+}
+Image.MAX_IMAGE_PIXELS = 20_000_000
+
+
 def resolve_default_model_path():
     candidates = [
         "best_darija_crnn.pth",
@@ -124,6 +137,17 @@ def load_model_from_path(model_path, device):
         cfg = {"img_height": 32, "max_width": 512}
         return model_local, {}, cfg
     raise ValueError("Unsupported model file")
+
+
+def validate_upload(file: UploadFile, content: bytes) -> Tuple[bool, str]:
+    content_type = (file.content_type or "").lower()
+    if content_type not in ALLOWED_MIME_TYPES:
+        return False, "Unsupported file type. Please upload PNG, JPG, WEBP, BMP, GIF, or TIFF."
+    if not content:
+        return False, "Empty file. Please upload a valid image."
+    if len(content) > MAX_UPLOAD_BYTES:
+        return False, f"File too large. Max size is {MAX_UPLOAD_MB} MB."
+    return True, ""
 
 
 def bbox_to_rect(bbox, w, h, pad_px=2):
@@ -341,7 +365,33 @@ def build_app():
             )
 
         content = await file.read()
-        image = Image.open(io.BytesIO(content)).convert("RGB")
+        valid, error = validate_upload(file, content)
+        if not valid:
+            return render_template(
+                request,
+                {
+                    "request": request,
+                    "model_status": model_status,
+                    "results": None,
+                    "error": error,
+                },
+            )
+
+        try:
+            image = Image.open(io.BytesIO(content))
+            image.load()
+            image = image.convert("RGB")
+        except (UnidentifiedImageError, OSError, ValueError, Image.DecompressionBombError):
+            return render_template(
+                request,
+                {
+                    "request": request,
+                    "model_status": model_status,
+                    "results": None,
+                    "error": "Invalid or unsupported image file.",
+                },
+            )
+
         annotated, rows, darija_text, easy_text = run_ocr(image, reader, model, idx_to_char, cfg, device)
         data_uri = pil_to_data_uri(annotated)
 
